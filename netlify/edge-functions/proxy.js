@@ -1,6 +1,6 @@
 export default async (request) => {
   const url = new URL(request.url);
-  const target = "https://my-presentation.pages.dev/" + url.pathname + url.search;
+  const target = "https://infinitestudys.vercel.app/" + url.pathname + url.search;
 
   const headers = new Headers(request.headers);
   headers.set("referer", "https://my-presentation.pages.dev/");
